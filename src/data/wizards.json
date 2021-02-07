@@ -4,113 +4,106 @@
       "id": 1,
       "name": "Harry Potter",
       "house": "Gryffindor",
-      "points": 0,
+      "points": 3,
       "image": "https://api.time.com/wp-content/uploads/2014/07/301386_full1.jpg?w=800&quality=85"
     },
     {
       "id": 2,
       "name": "Hermione Granger",
       "house": "Gryffindor",
-      "points": 0,
-      "image": "https://static.wikia.nocookie.net/harrypotter/images/3/34/Hermione_Granger.jpg/revision/latest/scale-to-width-down/1000?cb=20161221044857"
+      "points": 5,
+      "image": "https://www.brit.co/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yMTU5NjAxMy9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTY3MTM0NjA2N30.hqgSl-etfARZhVNbypKHl87Xm6e5-dwchybCtW5YQ30/image.jpg?width=600&quality=85"
     },
     {
       "id": 3,
       "name": "Draco Malfoy",
       "house": "Slytherin",
-      "points": 0,
-      "image": "https://static.wikia.nocookie.net/harrypotter/images/7/7e/Draco_Malfoy_TDH.png/revision/latest/scale-to-width-down/1000?cb=20180116013508"
+      "points": 6,
+      "image": "https://i.pinimg.com/originals/d5/1e/9b/d51e9b2f3260b4fd2bd73bb4e1b0e21f.jpg"
     },
     {
       "id": 4,
       "name": "Professor Lupin",
       "house": "Gryffindor",
-      "points": 0,
-      "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e2/Remus_Lupin_Deathly_Hallows_promo_image.jpg/revision/latest/scale-to-width-down/1000?cb=20161119235913"
+      "points": 8,
+      "image": "https://pbs.twimg.com/profile_images/1032264079833018369/zxI__C-m_400x400.jpg"
     },
     {
       "id": 5,
       "name": "Cho Chang",
       "house": "Ravenclaw",
-      "points": 0,
-      "image": "https://static.wikia.nocookie.net/harrypotter/images/1/1e/Cho_Chang.jpg/revision/latest/scale-to-width-down/1000?cb=20180322164130"
+      "points": 2,
+      "image": "https://static.wikia.nocookie.net/harrypotter/images/e/e1/Cho.jpg/revision/latest/scale-to-width-down/340?cb=20090725204212"
     },
     {
       "id": 6,
       "name": "Cedric Diggory",
       "house": "Hufflepuff",
-      "points": 0,
-      "image": "https://static.wikia.nocookie.net/harrypotter/images/9/90/Cedric_Diggory_Profile.png/revision/latest/scale-to-width-down/700?cb=20161123045136"
+      "points": 2,
+      "image": "https://static.wikia.nocookie.net/harrypotter/images/9/90/Cedric_Diggory_Profile.png/revision/latest?cb=20161123045136"
     },
     {
       "id": 7,
       "name": "Susan Bones",
       "house": "Hufflepuff",
-      "points": 0,
-      "image": "https://static.wikia.nocookie.net/harrypotter/images/7/77/Susan01.png/revision/latest/scale-to-width-down/250?cb=20150107120752"
+      "points": 3,
+      "image": "https://img.wattpad.com/119ff101b1adb1e82f7d5f9b2368621e7d4fefcd/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f4e4652716768496c6c654f4450673d3d2d3436323239313634302e313464656664633464626135383436393837313234373539313930312e6a7067?s=fit&w=720&h=720"
     },
     {
       "id": 8,
       "name": "Luna Lovegood",
       "house": "Ravenclaw",
-      "points": 0,
-      "image": "https://static.wikia.nocookie.net/harrypotter/images/e/ed/Luna_Lovegood.jpg/revision/latest/scale-to-width-down/673?cb=20160902165706"
+      "points": 1,
+      "image": "https://images.ctfassets.net/usf1vwtuqyxm/t6GVMDanqSKGOKaCWi8oi/74b6816d9f913623419b98048ec87d25/LunaLovegood_WB_F5_LunaLovegoodPromoCloseUp_Promo_080615_Port.jpg"
     },
     {
       "id": 9,
       "name": "Terry Boot",
-      "house": "Raven Claw",
-      "points": 0,
-      "image": "https://static.wikia.nocookie.net/harrypotter/images/7/77/Terry_Boot_HP5_PC.jpg/revision/latest/scale-to-width-down/679?cb=20180709223304"
+      "house": "Ravenclaw",
+      "points": 2,
+      "image": "https://i.pinimg.com/600x315/b1/b4/5b/b1b45be658b2a113fb5ce2b510fac785.jpg"
     },
     {
       "id": 10,
       "name": "Neville Longbottom",
       "house": "Gryffindor",
       "points": 0,
-      "image": "https://static.wikia.nocookie.net/harrypotter/images/2/2c/Neville_being_Sorted.jpg/revision/latest/scale-to-width-down/985?cb=20140921223031"
+      "image": "https://static.wikia.nocookie.net/muggle-born/images/6/67/Neville-longbottom.jpg/revision/latest/scale-to-width-down/340?cb=20140810230440"
     },
     {
       "id": 11,
       "name": "Ron Weasley",
       "house": "Gryffindor",
-      "points": 0,
-      "image": "https://static.wikia.nocookie.net/harrypotter/images/8/85/Ron_Weasley.jpg/revision/latest/scale-to-width-down/700?cb=20101104210200"
+      "points": 1,
+      "image": "https://i.insider.com/568d4264dd0895a83d8b45eb?width=1048&format=jpeg"
     },
     {
       "id": 12,
       "name": "Orochimaru",
       "house": "Slytherin",
       "points": 0,
-      "image": "https://static.wikia.nocookie.net/naruto/images/1/14/Orochimaru_Infobox.png/revision/latest/scale-to-width-down/1000?cb=20150925223113"
+      "image": "https://static.wikia.nocookie.net/naruto/images/1/14/Orochimaru_Infobox.png/revision/latest?cb=20150925223113"
     },
     {
       "id": 13,
       "name": "Narcissa Black",
       "house": "Slytherin",
       "points": 0,
-      "image": "https://static.wikia.nocookie.net/harrypotter/images/7/78/Narcissa_Malfoy.png/revision/latest/scale-to-width-down/700?cb=20190111020523"
+      "image": "https://i.ytimg.com/vi/EkYTa_BAQys/maxresdefault.jpg"
     },
     {
       "id": 14,
       "name": "Severus Snape",
       "house": "Slytherin",
       "points": 0,
-      "image": "https://static.wikia.nocookie.net/harrypotter/images/a/a3/Severus_Snape.jpg/revision/latest/scale-to-width-down/670?cb=20150307193047"
+      "image": "https://static.wikia.nocookie.net/warner-bros-entertainment/images/c/c1/Severus-snape1.jpg/revision/latest/top-crop/width/360/height/450?cb=20171112083156"
     },
     {
-      "name": "sadfsdfsa",
-      "image": "sdsdfasdfads",
-      "house": "sadfsfadfssfd",
-      "points": 0,
-      "id": 15
-    },
-    {
-      "name": "sdasdf",
-      "image": "dsafsdfa",
-      "house": "sdffdsaafsd",
-      "points": 0,
-      "id": 16
+      "name": "Voldermort",
+      "image": "https://static.wikia.nocookie.net/harrypotter/images/a/aa/Voldemort_Headshot_DHP1.png/revision/latest?cb=20161203031453",
+      "house": "Slytherin",
+      "points": 1,
+      "id": 17
     }
   ]
 }

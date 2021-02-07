@@ -44,7 +44,7 @@ export default class AddWizardForm extends Component {
             <form onSubmit={e => this.handleSumbit(e)} className="mb-4 p-3 border border-primary">
                 <div className="form-group">
                     <label htmlFor="wiz-name">Name</label>
-                    <input value={this.state.name} onChange={(e) => this.setState({name: e.target.value})} type="text" className="form-control" id="wiz-name"placeholder="Enter email"/>    
+                    <input value={this.state.name} onChange={(e) => this.setState({name: e.target.value})} type="text" className="form-control" id="wiz-name"placeholder="Name"/>    
                 </div>
                 <div className="form-group">
                     <label htmlFor="wiz-image">Picture</label>
@@ -52,7 +52,7 @@ export default class AddWizardForm extends Component {
                 </div>
                 <div className="form-group">
                     <label htmlFor="wiz-house">House</label>
-                    <input value={this.state.house}  onChange={(e) => this.setState({house: e.target.value})} type="text" className="form-control" id="wiz-house"placeholder="Enter email"/>    
+                    <input value={this.state.house}  onChange={(e) => this.setState({house: e.target.value})} type="text" className="form-control" id="wiz-house"placeholder="House"/>    
                 </div>
                 <button type="submit" className="btn btn-primary">Submit</button>
             </form>

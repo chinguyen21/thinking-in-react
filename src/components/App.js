@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 //Components
-import { Navbar } from './Navbar'
+import Navbar from './Navbar'
 import { About } from './About'
 import StudentContainer from './StudentContainer'
 import Search from './Search'
@@ -15,13 +15,24 @@ export default class App extends Component {
     show: "about",
     wizards: [],
     crew: [],
-    searchText: ""
+    searchText: "",
+    filter: '',
+    Gryffindor: 0,
+    Slytherin: 0,
+    Ravenclaw: 0,
+    Hufflepuff: 0
   }
 
-  componentDidMount = async () => {
+  async componentDidMount() {
     const response = await fetch(URL)
     const wizards = await response.json()
-    this.setState({ wizards })
+    this.setState({
+      wizards: wizards,
+      Gryffindor: wizards.filter(wizard => wizard.house === "Gryffindor").map(wizard => wizard.points).reduce((total, ele) => total + ele, 0),
+      Slytherin: wizards.filter(wizard => wizard.house === "Slytherin").map(wizard => wizard.points).reduce((total, ele) => total + ele, 0),
+      Ravenclaw: wizards.filter(wizard => wizard.house === "Ravenclaw").map(wizard => wizard.points).reduce((total, ele) => total + ele, 0),
+      Hufflepuff: wizards.filter(wizard => wizard.house === "Hufflepuff").map(wizard => wizard.points).reduce((total, ele) => total + ele, 0)
+    })
   }
 
   showContainer = () => this.setState({show: "index"})
@@ -30,6 +41,16 @@ export default class App extends Component {
 
   searchHandler = (searchText) => {
     this.setState({ searchText })
+  }
+
+  handleFilter = (filter) => {
+    this.setState({filter})
+  }
+
+  handleHousePoints = (wizard) => {
+    this.setState({
+      [wizard.house]: this.state[wizard.house] + 1
+    })
   }
 
  addToCrew = (wizard) => {
@@ -50,11 +71,17 @@ export default class App extends Component {
   render() {
     return (
       <>
-        <Navbar showAbout={this.showAbout} />
+        <Navbar showAbout={this.showAbout}
+        gryPoints={this.state.Gryffindor}
+        slyPoints={this.state.Slytherin}
+        ravPoints={this.state.Ravenclaw}
+        hufPoints={this.state.Hufflepuff}
+        />
         {this.state.show === "about" ? <About showSearch={this.showSearch} showContainer={this.showContainer} /> : null}
         {this.state.show === "index" ? 
-        <StudentContainer 
-          crew={this.state.crew} 
+        <StudentContainer
+          handleHousePoints={this.handleHousePoints}
+          crew={this.state.crew}
           addToCrew={this.addToCrew}
           removeFromCrew={this.removeFromCrew}
           wizardsData={this.state.wizards} /> : null}
@@ -62,7 +89,9 @@ export default class App extends Component {
         <Search
           createAWizard={this.createAWizard} 
           searchText={this.state.searchText} 
-          wizardsData={this.state.wizards} 
+          wizardsData={this.state.wizards}
+          filter={this.state.filter} 
+          handleFilter={this.handleFilter} 
           searchHandler={this.searchHandler} /> : null}
       </>
     )

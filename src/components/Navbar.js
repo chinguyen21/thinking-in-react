@@ -1,6 +1,12 @@
 import React from 'react'
 
-export const Navbar = ({ showAbout }) => {
+
+
+
+    const Navbar = ({showAbout, gryPoints, slyPoints, ravPoints, hufPoints}) => {
+
+
+
     return (
         <div className="bg-danger navbar-dark text-white">
             <div className="container">
@@ -12,8 +18,10 @@ export const Navbar = ({ showAbout }) => {
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav">
                             <a onClick={showAbout} href="#!" className="pl-md-0 p-3 text-white navbar-brand">Home</a>
-                            <a href="#!" className="p-3 text-decoration-none text-white">Place Holder</a>
-                            <a href="#!" className="p-3 text-decoration-none text-white">Place Holder</a>
+                            <a className="p-3 text-decoration-none text-white">Gryffindor: {gryPoints}</a>
+                            <a className="p-3 text-decoration-none text-white">Slytherin: {slyPoints}</a>
+                            <a className="p-3 text-decoration-none text-white">Ravenclaw: {ravPoints}</a>
+                            <a className="p-3 text-decoration-none text-white">Hufflepuff: {hufPoints}</a>
                         </div>
                     </div>
                 </nav>
@@ -21,3 +29,6 @@ export const Navbar = ({ showAbout }) => {
         </div>
     )
 }
+
+export default Navbar;
+
