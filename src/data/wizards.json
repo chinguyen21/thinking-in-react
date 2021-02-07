@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Harry Potter",
       "house": "Gryffindor",
-      "points": 3,
+      "points": 10,
       "image": "https://api.time.com/wp-content/uploads/2014/07/301386_full1.jpg?w=800&quality=85"
     },
     {
@@ -18,7 +18,7 @@
       "id": 3,
       "name": "Draco Malfoy",
       "house": "Slytherin",
-      "points": 6,
+      "points": 10,
       "image": "https://i.pinimg.com/originals/d5/1e/9b/d51e9b2f3260b4fd2bd73bb4e1b0e21f.jpg"
     },
     {
@@ -39,14 +39,14 @@
       "id": 6,
       "name": "Cedric Diggory",
       "house": "Hufflepuff",
-      "points": 2,
+      "points": 6,
       "image": "https://static.wikia.nocookie.net/harrypotter/images/9/90/Cedric_Diggory_Profile.png/revision/latest?cb=20161123045136"
     },
     {
       "id": 7,
       "name": "Susan Bones",
       "house": "Hufflepuff",
-      "points": 3,
+      "points": 4,
       "image": "https://img.wattpad.com/119ff101b1adb1e82f7d5f9b2368621e7d4fefcd/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f4e4652716768496c6c654f4450673d3d2d3436323239313634302e313464656664633464626135383436393837313234373539313930312e6a7067?s=fit&w=720&h=720"
     },
     {
@@ -60,35 +60,35 @@
       "id": 9,
       "name": "Terry Boot",
       "house": "Ravenclaw",
-      "points": 2,
+      "points": 3,
       "image": "https://i.pinimg.com/600x315/b1/b4/5b/b1b45be658b2a113fb5ce2b510fac785.jpg"
     },
     {
       "id": 10,
       "name": "Neville Longbottom",
       "house": "Gryffindor",
-      "points": 0,
+      "points": 1,
       "image": "https://static.wikia.nocookie.net/muggle-born/images/6/67/Neville-longbottom.jpg/revision/latest/scale-to-width-down/340?cb=20140810230440"
     },
     {
       "id": 11,
       "name": "Ron Weasley",
       "house": "Gryffindor",
-      "points": 1,
+      "points": 2,
       "image": "https://i.insider.com/568d4264dd0895a83d8b45eb?width=1048&format=jpeg"
     },
     {
       "id": 12,
       "name": "Orochimaru",
       "house": "Slytherin",
-      "points": 0,
+      "points": 5,
       "image": "https://static.wikia.nocookie.net/naruto/images/1/14/Orochimaru_Infobox.png/revision/latest?cb=20150925223113"
     },
     {
       "id": 13,
       "name": "Narcissa Black",
       "house": "Slytherin",
-      "points": 0,
+      "points": 4,
       "image": "https://i.ytimg.com/vi/EkYTa_BAQys/maxresdefault.jpg"
     },
     {
@@ -102,7 +102,7 @@
       "name": "Voldermort",
       "image": "https://static.wikia.nocookie.net/harrypotter/images/a/aa/Voldemort_Headshot_DHP1.png/revision/latest?cb=20161203031453",
       "house": "Slytherin",
-      "points": 1,
+      "points": 6,
       "id": 17
     }
   ]

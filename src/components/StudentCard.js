@@ -7,8 +7,7 @@ class StudentCard extends Component {
     }
 
     handlePoints =(wizard) => {
-        this.props.handleHousePoints(wizard)
-        let updateWizard = {points: wizard.points + 1}
+        let updateWizard = {points: this.state.points + 1}
         let reqPackage = {}
         reqPackage.headers = {"Content-Type":"application/json"}
         reqPackage.method = "PATCH"
@@ -17,7 +16,8 @@ class StudentCard extends Component {
         fetch(`http://localhost:3000/wizards/${wizard.id}`, reqPackage)
         .then(res => res.json())
         .then(uWizard => {
-            this.setState({points: uWizard.points})
+            this.setState({points: this.state.points + 1})
+            this.props.handleHousePoints(uWizard)
         })
     }
 
